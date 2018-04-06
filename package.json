@@ -20,8 +20,8 @@
     "build:multi": "electron-builder -mwl"
   },
   "build": {
-    "productName": "desktop-server-monitor",
-    "appId": "org.simulatedgreg.electron-vue",
+    "productName": "ServerMonitor",
+    "appId": "org.statnlp.server-monitor",
     "directories": {
       "output": "build"
     },

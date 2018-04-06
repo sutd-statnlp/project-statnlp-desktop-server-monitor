@@ -10,3 +10,7 @@ npm install
 npm run dev
 
 ```
+
+#### Download
+
+- MacOS: [Download](https://raw.githubusercontent.com/sutd-statnlp/project-statnlp-desktop-server-monitor/master/download/ServerMonitor.dmg.zip)
