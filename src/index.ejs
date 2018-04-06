@@ -8,14 +8,6 @@
     <meta name="theme-color" content="#000000">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css content/css/vendor.css -->
-    <!-- bower:css -->
-
-    <!-- endinject -->
-    <link rel="stylesheet" href="./static/content/css/vendor.css">
-    <!-- endbuild -->
-
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="manifest" href="manifest.webapp" />
 
@@ -24,28 +16,25 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap Core Css -->
-    <link href="./static/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="./static/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 
     <!-- Waves Effect Css -->
-    <link href="./static/plugins/node-waves/waves.css" rel="stylesheet" />
+    <link href="./static/plugins/node-waves/waves.css" rel="stylesheet" type="text/css" />
 
     <!-- Animation Css -->
-    <link href="./static/plugins/animate-css/animate.css" rel="stylesheet" />
+    <link href="./static/plugins/animate-css/animate.css" rel="stylesheet" type="text/css" />
 
-    <link href="./static/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="./static/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet" type="text/css">
 
     <!-- Morris Chart Css-->
-    <link href="./static/plugins/morrisjs/morris.css" rel="stylesheet" />
+    <link href="./static/plugins/morrisjs/morris.css" rel="stylesheet" type="text/css" />
 
     <!-- Custom Css -->
-    <link href="./static/css/style.css" rel="stylesheet">
+    <link href="./static/css/style.css" rel="stylesheet" type="text/css">
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-    <link href="./static/css/themes/all-themes.min.css" rel="stylesheet" />
+    <link href="./static/css/themes/all-themes.min.css" rel="stylesheet" type="text/css" />
 
-    <!-- build:css content/css/main.css -->
-    <link rel="stylesheet" href="./static/content/css/main.css">
-    <!-- endbuild -->
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -60,7 +49,7 @@
       </script>
     <% } %>
   </head>
-  <body>
+  <body class="theme-blue">
     <div id="app"></div>
     <!-- Insert this line above script imports  -->
     <script>if (typeof module === 'object') {mymodule = module; module = undefined;}</script>
