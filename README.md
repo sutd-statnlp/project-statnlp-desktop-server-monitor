@@ -14,3 +14,5 @@ npm run dev
 #### Download
 
 - MacOS: [Download](https://raw.githubusercontent.com/sutd-statnlp/project-statnlp-desktop-server-monitor/master/download/ServerMonitor.dmg.zip)
+- Windows: [Download](https://raw.githubusercontent.com/sutd-statnlp/project-statnlp-desktop-server-monitor/master/download/ServerMonitor.exe.zip)
+- Linux: [Download](https://raw.githubusercontent.com/sutd-statnlp/project-statnlp-desktop-server-monitor/master/download/ServerMonitor-x86_64.zip)
